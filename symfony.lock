@@ -1,4 +1,7 @@
 {
+    "acme/event-bundle": {
+        "version": "dev-main"
+    },
     "aws/aws-crt-php": {
         "version": "v1.0.2"
     },

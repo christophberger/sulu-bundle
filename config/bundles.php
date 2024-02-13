@@ -51,4 +51,5 @@ return [
     Sulu\Bundle\AutomationBundle\SuluAutomationBundle::class => ['all' => true],
     Sulu\Bundle\RedirectBundle\SuluRedirectBundle::class => ['all' => true],
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
+    Acme\EventBundle\AcmeEventBundle::class => ['all' => true],
 ];

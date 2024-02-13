@@ -4,8 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5b8f71e2b30adfc70d13d3fe9594e56",
+    "content-hash": "46c3901520ceaed216ff2402f64a0a2b",
     "packages": [
+        {
+            "name": "acme/event-bundle",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/christophberger/acme-event-bundle.git",
+                "reference": "1ed578fa0235c84905ab859c2970cdf1752edeba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/christophberger/acme-event-bundle/zipball/1ed578fa0235c84905ab859c2970cdf1752edeba",
+                "reference": "1ed578fa0235c84905ab859c2970cdf1752edeba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "sulu/sulu": "^2.5",
+                "symfony/framework-bundle": "^6.2",
+                "symfony/http-foundation": "^6.2",
+                "symfony/http-kernel": "^6.2",
+                "symfony/routing": "^6.2"
+            },
+            "default-branch": true,
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Acme\\EventBundle\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Acme Dev",
+                    "email": "me@acme.com"
+                }
+            ],
+            "description": "An event entity for sulu-demo",
+            "support": {
+                "source": "https://github.com/christophberger/acme-event-bundle/tree/main",
+                "issues": "https://github.com/christophberger/acme-event-bundle/issues"
+            },
+            "time": "2024-02-12T14:48:08+00:00"
+        },
         {
             "name": "aws/aws-crt-php",
             "version": "v1.2.1",
@@ -16905,7 +16950,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "acme/event-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
