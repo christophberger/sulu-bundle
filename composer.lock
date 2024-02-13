@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/christophberger/acme-event-bundle.git",
-                "reference": "1ed578fa0235c84905ab859c2970cdf1752edeba"
+                "reference": "a025f860d9c2fc3aafef3ada851d3d2c6f0f39f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/christophberger/acme-event-bundle/zipball/1ed578fa0235c84905ab859c2970cdf1752edeba",
-                "reference": "1ed578fa0235c84905ab859c2970cdf1752edeba",
+                "url": "https://api.github.com/repos/christophberger/acme-event-bundle/zipball/a025f860d9c2fc3aafef3ada851d3d2c6f0f39f8",
+                "reference": "a025f860d9c2fc3aafef3ada851d3d2c6f0f39f8",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
                 "source": "https://github.com/christophberger/acme-event-bundle/tree/main",
                 "issues": "https://github.com/christophberger/acme-event-bundle/issues"
             },
-            "time": "2024-02-12T14:48:08+00:00"
+            "time": "2024-02-13T08:07:15+00:00"
         },
         {
             "name": "aws/aws-crt-php",
