@@ -34,10 +34,3 @@ services:
     App\Content\Type\AlbumSelection:
         tags: [{ name: "sulu.content.type", alias: "album_selection" }]
 
-    # acme_event.event_controller:
-    #     public: true
-    #     class: Acme\EventBundle\Controller\Admin\EventController
-    #     tags:
-    #         - { name: "sulu.context", context: "admin" }
-    #         - { name: "controller.service_arguments" }
-    #         - { name: "container.service_subscriber" }
